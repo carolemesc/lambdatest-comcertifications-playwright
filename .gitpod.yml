@@ -1,0 +1,11 @@
+tasks:
+  - init: npm install  # Instala as dependências do projeto
+    command: npm run build && npm start  # Compila o TypeScript e inicia o servidor
+
+ports:
+  - port: 3000  # Porta onde a aplicação será acessada no Gitpod
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - ms-vscode.vscode-typescript-tslint-plugin  # Exemplo de extensão para TypeScript
