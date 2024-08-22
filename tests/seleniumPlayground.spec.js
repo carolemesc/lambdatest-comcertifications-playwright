@@ -72,7 +72,5 @@ test.describe('Assignment Task: Playwright 101', () =>{
     await page.getByRole('button', { name: 'Submit' }).click()
 
     await expect(page.getByText('Thanks for contacting us, we')).toBeVisible()
-
-    await page.waitForTimeout(5000)
   })
 })
