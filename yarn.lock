@@ -3,39 +3,44 @@
 
 
 "@faker-js/faker@^8.4.1":
-  "integrity" "sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg=="
-  "resolved" "https://registry.npmjs.org/@faker-js/faker/-/faker-8.4.1.tgz"
-  "version" "8.4.1"
+  version "8.4.1"
+  resolved "https://registry.npmjs.org/@faker-js/faker/-/faker-8.4.1.tgz"
+  integrity sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==
 
 "@playwright/test@^1.46.1":
-  "integrity" "sha512-Fq6SwLujA/DOIvNC2EL/SojJnkKf/rAwJ//APpJJHRyMi1PdKrY3Az+4XNQ51N4RTbItbIByQ0jgd1tayq1aeA=="
-  "resolved" "https://registry.npmjs.org/@playwright/test/-/test-1.46.1.tgz"
-  "version" "1.46.1"
+  version "1.46.1"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.46.1.tgz#a8dfdcd623c4c23bb1b7ea588058aad41055c188"
+  integrity sha512-Fq6SwLujA/DOIvNC2EL/SojJnkKf/rAwJ//APpJJHRyMi1PdKrY3Az+4XNQ51N4RTbItbIByQ0jgd1tayq1aeA==
   dependencies:
-    "playwright" "1.46.1"
+    playwright "1.46.1"
 
 "@types/node@^22.5.0":
-  "integrity" "sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-22.5.0.tgz"
-  "version" "22.5.0"
+  version "22.5.0"
+  resolved "https://registry.npmjs.org/@types/node/-/node-22.5.0.tgz"
+  integrity sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==
   dependencies:
-    "undici-types" "~6.19.2"
+    undici-types "~6.19.2"
 
-"playwright-core@1.46.1":
-  "integrity" "sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A=="
-  "resolved" "https://registry.npmjs.org/playwright-core/-/playwright-core-1.46.1.tgz"
-  "version" "1.46.1"
+fsevents@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-"playwright@1.46.1":
-  "integrity" "sha512-oPcr1yqoXLCkgKtD5eNUPLiN40rYEM39odNpIb6VE6S7/15gJmA1NzVv6zJYusV0e7tzvkU/utBFNa/Kpxmwng=="
-  "resolved" "https://registry.npmjs.org/playwright/-/playwright-1.46.1.tgz"
-  "version" "1.46.1"
+playwright-core@1.46.1:
+  version "1.46.1"
+  resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.46.1.tgz"
+  integrity sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A==
+
+playwright@1.46.1:
+  version "1.46.1"
+  resolved "https://registry.npmjs.org/playwright/-/playwright-1.46.1.tgz"
+  integrity sha512-oPcr1yqoXLCkgKtD5eNUPLiN40rYEM39odNpIb6VE6S7/15gJmA1NzVv6zJYusV0e7tzvkU/utBFNa/Kpxmwng==
   dependencies:
-    "playwright-core" "1.46.1"
+    playwright-core "1.46.1"
   optionalDependencies:
-    "fsevents" "2.3.2"
+    fsevents "2.3.2"
 
-"undici-types@~6.19.2":
-  "integrity" "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
-  "resolved" "https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz"
-  "version" "6.19.8"
+undici-types@~6.19.2:
+  version "6.19.8"
+  resolved "https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz"
+  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
