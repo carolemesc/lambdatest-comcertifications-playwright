@@ -41,6 +41,7 @@ To start your first workspace:
 
 ## Running the Project in the Gitpod Development Environment::
 - [Access the project](https://github.com/carolemesc/lambdatest-comcertifications-playwright)
+- Install playwright in the project
 
 ## Installing Dependencies
   - Faker:
