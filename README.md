@@ -42,6 +42,11 @@ To start your first workspace:
 ## Running the Project in the Gitpod Development Environment::
 - [Access the project](https://github.com/carolemesc/lambdatest-comcertifications-playwright)
 - Install playwright in the project
+- Follow the settings of the 4th step at [How to Run Playwright test on Lambda Test](https://www.lambdatest.com/support/docs/playwright-testing/), adding environment variables
+- To run tests:
+  - `node playwright-single-Scenario1.js`
+  - `node playwright-single-Scenario2.js`
+  - `node playwright-single-Scenario3.js`
 
 ## Installing Dependencies
   - Faker:

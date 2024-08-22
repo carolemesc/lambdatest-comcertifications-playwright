@@ -11,7 +11,7 @@ const capabilities = {
   'LT:Options': {
     'platform': 'Windows 10',
     'build': 'Playwright Single Build',
-    'name': 'Playwright Sample Test',
+    'name': 'Playwright Scenario 1',
     'user': process.env.LT_USERNAME,
     'accessKey': process.env.LT_ACCESS_KEY,
     'network': true,
